@@ -1,0 +1,36 @@
+package aula03;
+
+import java.util.Scanner;
+
+public class carro{
+	
+	String modelo;
+	String marca;
+	int ano;
+	String Placa;
+	String cor;
+	
+	public void ligar() { //declarar metodo na classe
+		
+	}
+	
+	public void desligar() {
+		
+	}
+	
+	public void acelerar() {
+		
+	}
+	
+	public void frear() {
+		
+	}
+}
+
+public class CarroTeste {
+	
+	public static void main(String[] args) {
+		
+	}
+}
+
