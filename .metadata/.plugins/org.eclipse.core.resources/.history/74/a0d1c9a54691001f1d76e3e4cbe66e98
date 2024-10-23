@@ -1,0 +1,23 @@
+package aula06;
+
+public class Pessoa {
+	
+	final String cpf = "ASOAS";
+	String nome;
+	String nascimento;
+	String telefone;
+	String email;
+	String estadoCivil;
+	
+	public void imprimir(int numero) {
+		
+		System.out.println("Pessoa " + numero);
+		System.out.println("Nome: " + nome);
+		System.out.println("Nascimento: " + nascimento);
+		System.out.println("Estado Civil: " + estadoCivil);
+		System.out.println("E-mail: " + email);
+		System.out.println("Telefone: " + telefone);
+		
+	}
+	
+}
