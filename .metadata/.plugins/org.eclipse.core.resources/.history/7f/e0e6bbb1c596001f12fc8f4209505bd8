@@ -1,0 +1,7 @@
+package aula07;
+
+public class MetodoConstrutorMain {
+	
+	pessoa1.MetodoConstrutor = new MetodoConstrutor();
+	
+}

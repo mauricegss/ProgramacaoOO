@@ -1,0 +1,22 @@
+package aula07;
+
+public class MetodoConstrutor {
+	
+	final String raca; // imutavel
+	String nome; // instancia
+	double renda;
+	static double rendaTotal; // classe
+	
+	public MetodoConstrutor(String nome, double renda) {
+		System.out.println("Iniciando Método Construtor");
+		this.raca = "Humano";
+		this.nome = nome;
+		this.renda = renda;
+		rendaTotal = rendaTotal+renda;
+	}
+	
+	public String toString() {
+		return "Raça = " + raca + "\nNome = " + nome + "\nRenda = " + renda";
+	}
+	
+}

@@ -1,7 +1,0 @@
-package aula05;
-
-public class carro {
-	public static void main(String[] args) {
-		System.out.println("OI");
-	}
-}

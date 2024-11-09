@@ -1,0 +1,23 @@
+package aula07;
+
+public class MetodoConstrutor {
+	
+	@Override
+	public String toString() {
+		return "MetodoConstrutor [raca=" + raca + ", nome=" + nome + ", renda=" + renda + "]";
+	}
+
+	final String raca; // imutavel
+	String nome; // instancia
+	double renda;
+	static double rendaTotal; // classe
+	
+	public MetodoConstrutor(String nome, double renda) {
+		System.out.println("Iniciando Método Construtor");
+		this.raca = "Humano";
+		this.nome = nome;
+		this.renda = renda;
+		rendaTotal = rendaTotal+renda;
+	}
+	
+}

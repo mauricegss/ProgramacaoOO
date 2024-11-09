@@ -1,0 +1,15 @@
+package aula07;
+
+public class MetodoConstrutor {
+	
+	final String raca = "Humano"; // imutavel
+	String nome; // instancia
+	double renda;
+	static double rendatotal; // classe
+	
+	public MetodoConstrutor() {
+		System.out.println("Iniciando Metodo Construtor");
+		
+	}
+	
+}
