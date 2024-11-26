@@ -1,0 +1,28 @@
+package aula09;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+		
+		List<String> listaGenerica = new ArrayList<String>();
+		
+		listaGenerica.add("Joao de Barro");
+		listaGenerica.add("1");
+		listaGenerica.add("25,99");
+		
+		String nome = (String)listaGenerica.get(0);
+		//Integer numero = (Integer)listaGenerica.get(1);
+		//double numerao = (double)listaGenerica.get(2);
+
+		for(int i = 0; i < listaGenerica.size(); i++) {
+			System.out.println(listaGenerica.get(i));
+		}
+		
+		System.out.println(nome);		
+		
+	}
+	
+}

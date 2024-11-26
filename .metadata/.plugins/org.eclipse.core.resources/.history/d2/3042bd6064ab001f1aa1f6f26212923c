@@ -1,0 +1,13 @@
+package lista05ex05;
+
+public class Teste {
+	public static void main(String[] args) {
+		Vagas vaga1 = new Vagas(1);
+		Vagas vaga2 = new Vagas(2);
+		Vagas vaga3 = new Vagas(3);
+		Vagas vaga4 = new Vagas(4);
+		Vagas vaga5 = new Vagas(5);
+		Veiculo carro1 = new Veiculo("ABC123", "Gol", "Vermelho");
+		Estacionamento estacionamento = new Estacionamento();
+	}
+}

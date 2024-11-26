@@ -1,0 +1,11 @@
+package aula08;
+//Aula de Associações
+
+public class Associacoes {
+	String nome;
+	String nascimento;
+	String sexo;
+	String email;
+	String estadoCivil;
+	
+}

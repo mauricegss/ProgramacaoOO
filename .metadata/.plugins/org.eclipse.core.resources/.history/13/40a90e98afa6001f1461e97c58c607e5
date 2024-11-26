@@ -1,0 +1,15 @@
+package aula09;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+
+		Banco banco1 = new Banco(111, "BBB");
+		banco1.adicionarNovaConta(333, "Joao");
+		banco1.adicionarNovaConta(444, "Jorge");
+		banco1.adicionarNovaConta(555, "Maria");
+		
+		
+	}
+	
+}

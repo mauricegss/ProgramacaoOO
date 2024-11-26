@@ -1,8 +1,0 @@
-package aula07;
-
-public class MetodoConstrutorMain {
-	
-	MetodoConstrutor pessoa1 = new MetodoConstrutor();
-	MetodoConstrutor pessoa2 = new MetodoConstrutor();
-	
-}

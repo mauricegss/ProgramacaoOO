@@ -1,0 +1,11 @@
+package aula09;
+
+import java.util.List;
+
+public class Banco {
+
+	private int cnpj;
+	private String nome;
+	private List <ContaBancaria> contasBancarias;
+	
+}

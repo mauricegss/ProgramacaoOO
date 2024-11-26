@@ -1,0 +1,13 @@
+package aula09;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Teste {
+	
+	List listaGenerica = new ArrayList();
+	
+	listaGenerica.add() = "Joao de Barro";
+	
+	
+}
