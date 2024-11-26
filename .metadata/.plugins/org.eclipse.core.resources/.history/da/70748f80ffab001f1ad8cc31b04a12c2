@@ -67,10 +67,11 @@ public class Estacionamento {
 		double preco = horaRetirada - vaga.getHorario();
 		if(preco <=3) {
 			preco = 2;
+			System.out.println("Veiculo Retirado = "+ preco +" REAIS");
 		} else {
 			preco = 2 + (0.5*(preco-3));
+			System.out.println("Veiculo Retirado = "+ preco +" REAIS");
 		}
-		System.out.println("Veiculo Retirado = "+ preco +" REAIS");
 	}
 	
 }

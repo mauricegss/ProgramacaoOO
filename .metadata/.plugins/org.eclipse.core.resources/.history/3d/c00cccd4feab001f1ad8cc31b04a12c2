@@ -5,13 +5,13 @@ import java.util.ArrayList;
 
 public class Banco {
 
-	//private int cnpj;
-	//private String nome;
+	private int cnpj;
+	private String nome;
 	private List <ContaBancaria> contasBancarias;
 	
-	public Banco(/*int cnpj, String nome*/) {
-		//this.cnpj = cnpj;
-		//this.nome = nome;
+	public Banco(int cnpj, String nome) {
+		this.cnpj = cnpj;
+		this.nome = nome;
 		this.contasBancarias = new ArrayList<ContaBancaria>();
 	}
 	
