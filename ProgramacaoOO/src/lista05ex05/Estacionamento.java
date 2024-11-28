@@ -18,15 +18,21 @@ public class Estacionamento {
 		this.vagas = vagas;
 	}
 	
-	public void imprimirVaga(Vagas vaga) {
-		System.out.println("========================");
-	    System.out.println("Vaga " + vaga.getNumero());
-	    System.out.println(vaga.getStatus());
-	    if (vaga.getStatus() == Status.OCUPADA) { // Verifica se a vaga tem um veículo
-	        System.out.println("Veículo: " + vaga.getVeiculo().getModelo());
-	        System.out.println("Horário: " + vaga.getHorario());
-	    }
-	    System.out.println("========================");
+	public void imprimirVaga(int numero) {
+		for(Vagas vaga : vagas) {
+			if(vaga.getNumero() == numero) {
+				System.out.println("========================");
+			    System.out.println("Vaga " + vaga.getNumero());
+			    System.out.println(vaga.getStatus());
+			    if (vaga.getStatus() == Status.OCUPADA) {
+			        System.out.println("Veículo: " + vaga.getVeiculo().getModelo());
+			        System.out.println("UF: " + vaga.getVeiculo().getUf().getSigla());
+			        System.out.println("Horário: " + vaga.getHorario() + " Horas");
+			    }
+			    System.out.println("========================");
+			    return;
+			}
+		}
 	}
 
 	public void estacionar(Veiculo veiculo, int horario) {
@@ -70,7 +76,7 @@ public class Estacionamento {
 		} else {
 			preco = 2 + (0.5*(preco-3));
 		}
-		System.out.println("Veiculo Retirado = "+ preco +" REAIS");
+		System.out.println("Veiculo Retirado = "+ preco +" Reais");
 	}
 	
 }

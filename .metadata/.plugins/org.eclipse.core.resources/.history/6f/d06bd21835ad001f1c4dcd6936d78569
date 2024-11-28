@@ -1,0 +1,23 @@
+package gleifer;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Codigo {
+
+	public static List<Integer> gerarPalavrar() {
+		System.out.println("Escreva a Palavra, Encerre com 0: ");
+		Scanner input = new Scanner(System.in);
+		List<Integer> palavra = new ArrayList<Integer>();
+		for(int i = 1; i!=0;) {
+			i = input.nextInt();
+			if(i != 0) {
+				palavra.add(i);
+			}
+		}
+		input.close();
+		return palavra;
+	}
+	
+}

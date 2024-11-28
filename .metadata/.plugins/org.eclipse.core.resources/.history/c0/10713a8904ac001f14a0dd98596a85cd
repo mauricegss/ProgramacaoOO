@@ -1,0 +1,13 @@
+package lista05ex05;
+
+public enum UnidadeFederativa {
+	SP("São Paulo", "SP", "São Paulo"),
+	RJ("Rio de Janeiro","RJ", "Rio de Janeiro"),
+	MG("Minas Gerias", "MG", "Belo Horizonte"),
+	ES("Espírito Santo", "ES", "Vitória");
+	
+	private String nome;
+	private String sigla;
+	private String capital;
+	
+}

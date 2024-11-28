@@ -1,0 +1,13 @@
+package gleifer;
+
+import java.util.List;
+
+public class Teste {
+
+	public void imprimir(List<Integer> palavras) {
+		for(int palavra : palavras) {
+			System.out.println(palavra);
+		}
+	}
+	
+}

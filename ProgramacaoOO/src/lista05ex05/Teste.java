@@ -13,12 +13,12 @@ public class Teste {
 		}
         Estacionamento estacionamento = new Estacionamento(listaVagas);
         
-		Veiculo carro1 = new Veiculo("A", "A", "Vermelho");
-		Veiculo carro2 = new Veiculo("B", "B", "Vermelho");
-		Veiculo carro3 = new Veiculo("C", "C", "Vermelho");
-		Veiculo carro4 = new Veiculo("D", "D", "Vermelho");
-		Veiculo carro5 = new Veiculo("E", "E", "Vermelho");
-		Veiculo carro6 = new Veiculo("F", "F", "Vermelho");
+		Veiculo carro1 = new Veiculo("A", "A", "Vermelho", UnidadeFederativa.SP);
+		Veiculo carro2 = new Veiculo("B", "B", "Vermelho", UnidadeFederativa.RJ);
+		Veiculo carro3 = new Veiculo("C", "C", "Vermelho", UnidadeFederativa.MG);
+		Veiculo carro4 = new Veiculo("D", "D", "Vermelho", UnidadeFederativa.ES);
+		Veiculo carro5 = new Veiculo("E", "E", "Vermelho", UnidadeFederativa.RJ);
+		Veiculo carro6 = new Veiculo("F", "F", "Vermelho", UnidadeFederativa.SP);
 		
 		estacionamento.estacionar(carro1, 2);
 		estacionamento.estacionar(carro2, 2);
@@ -27,11 +27,11 @@ public class Teste {
 		estacionamento.estacionar(carro5, 2);
 		estacionamento.estacionar(carro6, 2);
 		
-		estacionamento.imprimirVaga(estacionamento.getVagas().get(4));
+		estacionamento.imprimirVaga(5);
 		estacionamento.retirarVeiculo("E", 7);
-		estacionamento.imprimirVaga(estacionamento.getVagas().get(4));
+		estacionamento.imprimirVaga(5);
 		estacionamento.estacionar(carro6, 2);
-		estacionamento.imprimirVaga(estacionamento.getVagas().get(4));
+		estacionamento.imprimirVaga(5);
 		
 	}
 }

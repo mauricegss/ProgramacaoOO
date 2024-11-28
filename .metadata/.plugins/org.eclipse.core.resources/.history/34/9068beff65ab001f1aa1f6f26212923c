@@ -1,7 +1,0 @@
-package lista05ex05;
-
-import java.util.List;
-
-public class Estacionamento {
-	private List <Vagas> vagas;
-}

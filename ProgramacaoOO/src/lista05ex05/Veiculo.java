@@ -4,11 +4,23 @@ public class Veiculo {
 	private String placa;
 	private String modelo;
 	private String cor;
+	private UnidadeFederativa uf;
 	
-	public Veiculo(String placa, String modelo, String cor) {
+	public Veiculo(String placa, String modelo, String cor, UnidadeFederativa uf) {
 		this.placa = placa;
 		this.modelo = modelo;
 		this.cor = cor;
+		this.uf = uf;
+	}
+	
+	
+
+	public UnidadeFederativa getUf() {
+		return uf;
+	}
+
+	public void setUf(UnidadeFederativa uf) {
+		this.uf = uf;
 	}
 
 	public String getPlaca() {

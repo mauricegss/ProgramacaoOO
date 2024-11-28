@@ -1,0 +1,6 @@
+package gleifer;
+
+public enum Estado {
+	MENU_BOAS_VINDAS,
+	MENU_PRINCIPAL
+}
