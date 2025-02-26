@@ -1,0 +1,15 @@
+package aula10;
+
+public class Calculadora {
+	
+	public void dividir(int numero1, int numero2) {
+		try {
+			double soma = numero1 / numero2;
+			System.out.println("Valor: " + soma);
+		} catch(ArithmeticException ae) {
+			System.out.println("Impossível dividir por zero");
+		}
+		
+	}
+
+}

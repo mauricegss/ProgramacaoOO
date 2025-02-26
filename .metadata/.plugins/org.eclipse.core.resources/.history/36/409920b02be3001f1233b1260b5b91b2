@@ -1,0 +1,27 @@
+package aula10;
+
+public class Calculadora {
+	
+	public double valor = 0;
+
+	public double somar(double numero1, double numero2) {
+		double soma = numero1 + numero2;
+		return soma;
+	}
+	
+	public double subtrair(double numero1, double numero2) {
+		double soma = numero1 - numero2;
+		return soma;
+	}
+	
+	public double dividir(double numero1, double numero2) {
+		double soma = numero1 / numero2;
+		return soma;
+	}
+	
+	public double multiplicar(double numero1, double numero2) {
+		double soma = numero1 * numero2;
+		return soma;
+	}
+	
+}

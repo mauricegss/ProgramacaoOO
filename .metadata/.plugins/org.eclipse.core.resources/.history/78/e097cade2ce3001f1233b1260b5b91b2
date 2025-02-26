@@ -1,0 +1,31 @@
+package aula10;
+
+public class Calculadora {
+
+	public double somar(double numero1, double numero2) {
+		double soma = numero1 + numero2;
+		return soma;
+	}
+	
+	public double subtrair(double numero1, double numero2) {
+		double soma = numero1 - numero2;
+		return soma;
+	}
+	
+	public double dividir(double numero1, double numero2) {
+		try {
+			double soma = numero1 / numero2;
+			return soma;
+		} catch(ArithmeticException ae) {
+			System.out.println("Impossível dividir por zero");
+			return 0;
+		}
+		
+	}
+	
+	public double multiplicar(double numero1, double numero2) {
+		double soma = numero1 * numero2;
+		return soma;
+	}
+	
+}

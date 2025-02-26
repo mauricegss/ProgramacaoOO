@@ -1,0 +1,16 @@
+package fragmentos;
+
+import java.util.List;
+
+public class Teste {
+	public static void main(String[] args) {
+		
+		int bag = 44935;
+		List<Personagem> lista = Adicionar.adicionar();
+
+		Personagem.comprar(bag, "Aurora");
+		//Personagem.imprimir();
+
+	}
+	
+}

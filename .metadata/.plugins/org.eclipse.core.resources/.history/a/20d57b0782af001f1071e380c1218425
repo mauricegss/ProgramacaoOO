@@ -1,0 +1,44 @@
+package fragmentos;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Teste {
+	public static void main(String[] args) {
+		
+		Personagem.bag = 44935;
+		Personagem.personagens = new ArrayList<Personagem>();
+		System.out.println(Personagem.bag);
+		
+		Personagem.adicionar("Gangplank", true, 3150);
+		Personagem.adicionar("Kassadin", true, 3150);
+		Personagem.adicionar("Katarina", true, 3150);
+		Personagem.adicionar("Nidalee", true, 3150);
+		Personagem.adicionar("Samira", true, 3150);
+		Personagem.adicionar("Shaco", true, 3150);
+		Personagem.adicionar("Aphelios", true, 4800);
+		Personagem.adicionar("Elise", true, 4800);
+		Personagem.adicionar("Kha'Zix", true, 4800);
+		Personagem.adicionar("Lissandra", true, 4800);
+		Personagem.adicionar("Qiyana", true, 4800);
+		Personagem.adicionar("Rengar", true, 4800);
+
+		Personagem.adicionar("Heimerdinger", false, 3150);
+		Personagem.adicionar("Jhin", false, 4444);
+		Personagem.adicionar("Bardo", false, 4800);
+		Personagem.adicionar("Gnar", false, 4800);
+		Personagem.adicionar("Ivern", false, 4800);
+		Personagem.adicionar("Neeko", false, 4800);
+		Personagem.adicionar("Rek'Sai", false, 4800);
+		Personagem.adicionar("Rell", false, 4800);
+		Personagem.adicionar("Renekton", false, 4800);
+		Personagem.adicionar("Viktor", false, 4800);
+		Personagem.adicionar("Ambessa", false, 6300);
+		Personagem.adicionar("Aurora", false, 6300);
+		
+		Personagem.comprar("Aurora");
+		//Personagem.imprimir();
+
+	}
+	
+}

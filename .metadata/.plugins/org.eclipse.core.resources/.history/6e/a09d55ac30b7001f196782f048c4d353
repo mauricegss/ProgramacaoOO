@@ -1,0 +1,15 @@
+package aula10;
+
+import java.util.List;
+
+public class Teste {
+	private int numero1;
+	private int numero2;
+	private double numero11;
+	private double numero22;
+	private List<Integer> numeros;
+	
+	public void somarInt() {
+		
+	}
+}

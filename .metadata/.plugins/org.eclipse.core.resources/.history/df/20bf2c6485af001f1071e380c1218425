@@ -1,0 +1,19 @@
+package fragmentos;
+
+import java.util.List;
+
+public class Teste {
+	
+	static int saldo = 44935;
+	static List<Personagem> lista = Adicionar.adicionar();
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Saldo = " + saldo);
+
+		Personagem.comprar("Aurora");
+		Personagem.imprimir();
+
+	}
+	
+}

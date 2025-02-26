@@ -1,6 +1,0 @@
-package gleifer;
-
-public enum Alfabeto {
-	INICIAR_PEDIDO,
-	OPCAO_LANCHES;
-}

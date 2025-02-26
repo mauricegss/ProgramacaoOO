@@ -1,0 +1,35 @@
+package aula10;
+
+import java.util.Scanner;
+
+public class Calculadora {
+	
+	public void dividir() {
+		
+		Scanner input = new Scanner(System.in);
+		double numero1, numero2;
+		try {
+		System.out.println("Informe o numerador: ");
+		numero1 = input.nextDouble();
+		
+		System.out.println("Informe o denominador: ");
+		numero2 = input.nextDouble();
+		} catch(Exception e) {
+			System.out.println("Você fez besteira");
+			this.dividir();
+			input.close();
+			return;
+		}
+		
+		try {
+			double soma = numero1 / numero2;
+			System.out.println("Valor: " + soma);
+		} catch(ArithmeticException ae) {
+			System.out.println("Impossível dividir por zero");
+		}
+		
+		input.close();
+		
+	}
+
+}

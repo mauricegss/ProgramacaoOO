@@ -1,0 +1,27 @@
+package aula10;
+
+import java.util.List;
+
+public class Teste {
+	private int numero1;
+	private int numero2;
+	private double numero11;
+	private double numero22;
+	private List<Integer> numeros;
+	
+	public int somarInt(int numero1, int numero2) {
+		return numero1 + numero2;
+	}
+	
+	public double somarDouble(double numero1, double numero2) {
+		return numero1 + numero2;
+	}
+	
+	public int somarList(List<Integer> numeros) {
+		int soma=0;
+		for(int numero : numeros) {
+			soma += numero;
+		}
+		return soma;
+	}
+}

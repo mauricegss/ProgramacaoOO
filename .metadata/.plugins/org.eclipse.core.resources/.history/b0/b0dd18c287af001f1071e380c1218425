@@ -1,0 +1,10 @@
+package fragmentos;
+
+import java.util.List;
+
+public class Fragmentos {
+	int saldo;
+	List<Personagem> personagens;
+	
+	
+}

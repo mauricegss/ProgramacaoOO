@@ -1,0 +1,23 @@
+package aula10;
+
+import java.util.Scanner;
+
+public class teste {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		Calculadora calculadora = new Calculadora();
+		
+		System.out.println("Informe o numerador: ");
+		double numerador = input.nextDouble();
+		
+		System.out.println("Informe o denominador: ");
+		double denominador = input.nextDouble();
+		
+		calculadora.dividir
+		
+	}
+
+}

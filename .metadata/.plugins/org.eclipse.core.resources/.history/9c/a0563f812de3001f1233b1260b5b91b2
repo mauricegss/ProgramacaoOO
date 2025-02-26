@@ -1,0 +1,18 @@
+package aula10;
+
+public class teste {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		Calculadora calculadora = new Calculadora();
+		
+		
+		
+		calculadora.dividir(numerador, denominador);
+		
+		input.close();
+	}
+
+}

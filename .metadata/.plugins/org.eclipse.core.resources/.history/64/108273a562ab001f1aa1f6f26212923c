@@ -1,8 +1,0 @@
-package lista05ex05;
-
-public class Teste {
-	public static void main(String[] args) {
-		
-		Estacionamento estacionamento = new Estacionamento();
-	}
-}

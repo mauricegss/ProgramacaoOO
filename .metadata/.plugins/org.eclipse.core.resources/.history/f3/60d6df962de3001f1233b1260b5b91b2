@@ -1,0 +1,15 @@
+package aula10;
+
+public class teste {
+
+	public static void main(String[] args) {
+			
+		Calculadora calculadora = new Calculadora();
+		
+		
+		calculadora.dividir();
+		
+
+	}
+
+}

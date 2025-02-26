@@ -1,6 +1,0 @@
-package lista05ex05;
-
-public enum Status {
-	LIBERADO,
-	OCUPADO;
-}

@@ -1,0 +1,35 @@
+package aula11;
+
+import java.util.InputMismatchException;
+
+public class teste {
+
+	public static void main(String[] args) {
+			
+		Calculadora calculadora = new Calculadora();
+		
+		try {
+			
+			calculadora.informarDados();
+			
+			try {
+				calculadora.dividir();
+			} catch (ArithmeticException ae) {
+				System.out.println("Arithmetic Exception");
+			} catch (Exception e) {
+				System.out.println("Exception");
+			}
+			
+		} catch(InputMismatchException ime) {
+			System.out.println("Input Mismatch Exception");	
+		}
+		
+		finally{
+	
+		}
+		
+		
+
+	}
+
+}

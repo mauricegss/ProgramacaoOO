@@ -1,0 +1,16 @@
+package fragmentos;
+
+import java.util.List;
+
+public class Fragmentos {
+	int saldo;
+	List<Personagem> personagens;
+	
+	public Fragmentos(int saldo, List<Personagem> personagens) {
+		super();
+		this.saldo = 44935;
+		this.personagens = Adicionar.adicionar();
+	}
+	
+	
+}

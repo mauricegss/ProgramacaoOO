@@ -1,0 +1,17 @@
+package fragmentos;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+		
+		Fragmentos personagens = new Fragmentos();
+		
+		System.out.println("Saldo = " + personagens.saldo);
+
+		personagens.comprarFragmentos();
+		
+		//personagens.imprimir();
+
+	}
+	
+}

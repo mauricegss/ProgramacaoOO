@@ -1,7 +1,0 @@
-package lista05ex05;
-
-public class Veiculo {
-	String placa;
-	String modelo;
-	String cor;
-}
